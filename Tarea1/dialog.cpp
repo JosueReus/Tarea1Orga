@@ -33,11 +33,11 @@ void Dialog::on_pushButton_clicked()
 
 
 
-    myfile<<"Numero de cuenta: "<<cuenta<<"\n";
-    myfile<<"Nombre: "<<nombre<<"\n";
-    myfile<<"Carrera: "<<carrera<<"\n";
-    myfile<<"Fecha de Nacimento: "<<fecha<<"\n";
-    myfile<<"Universidad: "<<universidad<<"\n";
+    myfile<<cuenta<<"\n";
+    myfile<<nombre<<"\n";
+    myfile<<carrera<<"\n";
+    myfile<<fecha<<"\n";
+    myfile<<universidad<<"\n";
     myfile<<"\n";
     myfile.flush();
     myfile.close();
@@ -81,7 +81,7 @@ void Dialog::on_pushButton_2_clicked()
 {
     ui->listWidget->clear();
     ifstream read("students.data",ios::in|ios::ate|ios::binary);
-    QString num="Numero de cuenta: "+ui->lineEdit_6->text();
+    QString num=ui->lineEdit_6->text();
 
     if(read.is_open()){
     read.seekg(0);

@@ -10,8 +10,6 @@ class Alumnos
 public:
     Alumnos();
     QString nombre;
-    int size;
-    int color;
     ~Alumnos();
 };
 
