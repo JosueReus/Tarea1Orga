@@ -7,6 +7,7 @@
 #include <fstream>
 #include <string>
 #include "dialog.h"
+#include "tarea2.h"
 
 
 using namespace std;
@@ -31,6 +32,8 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;

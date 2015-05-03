@@ -23,3 +23,10 @@ void MainWindow::on_pushButton_clicked()
     windowvn.exec();
 
 }
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    Tarea2 windowShow;
+    windowShow.setModal(true);
+    windowShow.exec();
+}

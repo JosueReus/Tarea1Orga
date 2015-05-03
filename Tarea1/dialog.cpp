@@ -94,6 +94,7 @@ void Dialog::on_pushButton_2_clicked()
         {
             for(int x=0;x<5;x++)
             {
+
                 getline(read,line);
                 text=QString::fromStdString(line);
                 ui->listWidget->addItem(text);
@@ -105,5 +106,6 @@ void Dialog::on_pushButton_2_clicked()
     ui->lineEdit_6->setText("");
     }
 }
+
 
 
