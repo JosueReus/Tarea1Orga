@@ -182,10 +182,6 @@ int Tarea2::tellIndex(int index)
 return 0;
 }
 
-void Tarea2::on_pushButton_4_clicked()
-{
-    tellIndex(2);
-}
 
 void Tarea2::indexRead()
 {
