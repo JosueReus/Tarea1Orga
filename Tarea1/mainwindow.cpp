@@ -30,3 +30,11 @@ void MainWindow::on_pushButton_2_clicked()
     windowShow.setModal(true);
     windowShow.exec();
 }
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    Tarea3 windowS;
+    windowS.setModal(true);
+    windowS.exec();
+
+}

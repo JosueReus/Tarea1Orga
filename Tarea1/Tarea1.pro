@@ -16,13 +16,16 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     alumnos.cpp \
     dialog.cpp \
-    tarea2.cpp
+    tarea2.cpp \
+    tarea3.cpp
 
 HEADERS  += mainwindow.h \
     alumnos.h \
     dialog.h \
-    tarea2.h
+    tarea2.h \
+    tarea3.h
 
 FORMS    += mainwindow.ui \
     dialog.ui \
-    tarea2.ui
+    tarea2.ui \
+    tarea3.ui
